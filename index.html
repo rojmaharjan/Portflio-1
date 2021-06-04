@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>portfolio</title>
+	<style >
+		*{
+			margin: 0px;
+			padding: 0px;
+			box-sizing: border-box;
+		}
+		.container{
+			background-color: rgb(64, 66, 94) ;
+			border: 5px solid black;
+			flex-wrap: wrap;
+			color:  rgb(141, 127, 128);
+		}
+		.content-4{
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: center;
+			color:black ;
+			background-color: rgb(100, 100, 100);
+		}
+		.text-3{
+			padding: 10px;
+		}
+		.content{
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			background-color:;
+			color: black;
+		}
+		.logo{
+			padding: 10px;
+			margin-left: 40px;
+			color:   rgb(26, 182, 6);
+		}
+		nav ul li{
+			list-style: none;
+			display: inline-block;
+			margin: 20px;
+			border: 2px solid white;
+			
+		}
+		nav ul li a{
+			text-decoration: none;
+			color: Black;
+			font-family: monospace;
+			background-color: rgba(149, 218, 22, 0.185);
+		}
+		nav ul li a:hover{
+			color: ;
+			font-family: fantasy;
+		}
+		.link{
+			margin-right: 100px;
+			color: whitesmoke;
+			padding: 5px;
+			margin: 5px;
+		}
+		.content-1{
+				display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			align-items: center;
+			justify-content: center;
+		}
+		.image{
+			flex: 1;
+			padding: 50px;
+			margin-left: 150px;
+		}
+		.text{
+			flex: 1;
+			padding: 50px;
+			margin-right: 100px;
+		}
+		.content-2{
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			text-align: center;
+			border: 2px solid white;
+		}
+		.contact{
+			align-content: flex-start;
+			padding: 40px;
+			margin-left: 170px;
+		}
+		.image-2{
+			position: relative;
+			padding-top: 60px;
+			height: 300px;
+			width: 300px;
+		}
+		.contact-mine{
+			position: absolute;
+			top: 315px;
+			left: 80px;
+			color: rgb(141, 127, 128);
+		}
+		.content-3{
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content:space-around;
+			color:rgb(141, 127, 128) ;
+			border: 2px solid white;
+			padding: 20px;
+		}
+		.text-2{
+			margin-right: 300px;
+		}
+		
+	</style>
+</head>
+<body>
+<div class="container">
+		<div class="content-4">
+		<div class="text-3"><h2><strong>Portfolio</strong></h2></div>
+		
+	</div>
+	<div class="content">
+		<div class="logo"> 
+			<h1>Portfolio </h1>
+		</div>
+		<div class="link"> 
+		<nav><ul>
+				 <li><a href=".com">Profile</a></li>
+				 <li><a href=".com">Contact</a></li> 
+				 <li><a href=".com">About me</a></li>
+			</ul>
+		</nav>
+		</div>
+	</div>
+	<div class="content-1">
+		<div class="image">
+			<a href="portfolio.png" target="-blank">
+			<img src="portfolio.png" height="400px" width="400px"></a>
+		</div>
+		<div class="text">
+			<h3>HEllo</h3>
+			<h4>Welcome to my Website.</h4>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br>
+			<h4>About Me</h4>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+	</div>
+	<div class="content-2">
+		<div class="contact">
+				<h2><strong>Contact</strong></h2>
+				<br>
+				<form>
+					<label for="fname">First Name:</label><br>
+					<input type="text" name="fname" id="fname"><br><br>
+					<label for="lname">Last Name:</label><br>
+					<input type="text" name="lname" id="lname"><br><br>
+					<label for="e-mail">E-mail:</label><br>
+					<input type="text" name="e-mail">
+					<br><br>
+					<label for="subject">Message:</label><br>
+					<textarea id="subject"></textarea><br>
+					<input type="Submit" value="Send message">
+
+				</form>
+		</div>
+	
+		<div class="image-2">
+			<a href="image.png" target="-blank">
+			<img src="image.png" height="250px" width="300px">
+				<div class="contact-mine">
+					<h5><strong>Contact</strong>:98732659324 </h5>
+					<h5><strong>E-mail</strong>:masdbhj@gmail.com </h5>
+				</div>
+		</div>
+	</div><br><br>
+	<div class="content-3">
+		<div class="text-1"><h3><strong>Portfolio 2021 copyright all right reversed</strong></h3></div>
+		<div class="text-2"><h3><strong>Design and developed by me.</strong></h3></div>
+	</div>
+</div>
+
+</body>
+</html>
